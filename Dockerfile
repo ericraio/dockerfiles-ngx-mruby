@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER youyo
 
-ENV NGINX_SRC_VER=nginx-1.13.3
-ENV MGX_MRUBY_VERSION=v1.20.0
+ENV NGINX_SRC_VER=nginx-1.13.12
+ENV MGX_MRUBY_VERSION=v1.20.2
 
 ENV NGINX_CONFIG_OPT_ENV \
 	--prefix=/usr/share/nginx \
